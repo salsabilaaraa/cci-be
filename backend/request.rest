@@ -1,0 +1,10 @@
+//Create a user
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Salsabila",
+    "email": "admin@gmail.com"
+    "confPassword": "123456"
+    "role": "admin"
+}
