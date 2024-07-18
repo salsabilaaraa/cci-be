@@ -66,4 +66,6 @@ const Products = db.define('product', {
 Users.hasMany(Products);
 Products.belongsTo(Users, {foreignKey :'userId'})
 
+
+
 export default Products;
