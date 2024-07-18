@@ -49,6 +49,14 @@ const Products = db.define('product', {
         }
 
     }, 
+    imageurl : {
+        type: DataTypes.STRING,
+        allowNull : false, 
+        validate : {
+            notEmpty: true,    
+        }
+
+    },
 
    
 }, {

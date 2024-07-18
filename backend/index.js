@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 // (async () => {
-//     await db.sync();
+    // await db.sync({force:true});
 // })();
 
 app.use(session({

@@ -4,7 +4,8 @@ Content-Type: application/json
 
 {
     "name": "Salsabila",
-    "email": "admin@gmail.com"
-    "confPassword": "123456"
+    "email": "admin@gmail.com",
+    "password": "123456",
+    "confPassword": "123456",
     "role": "admin"
 }

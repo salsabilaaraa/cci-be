@@ -28,21 +28,20 @@ const Users = db.define('users', {
             len: [3, 100]
         }
     }, 
-    email: {
+    password: {
         type: DataTypes.STRING,
         allowNull: false, 
         validate: {
             notEmpty: true,
-            isEmail: true
         }
     }, 
-    password: {
+    country: {
         type: DataTypes.STRING,
         allowNull: false, 
         validate: {
             notEmpty: true
         }
-    }, 
+    },
     role: {
         type: DataTypes.STRING,
         allowNull: false, 
